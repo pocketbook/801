@@ -1,0 +1,8 @@
+config RTL8192CU
+	select WIRELESS_EXT
+	select WEXT_PRIV
+	tristate "Realtek 8192C USB WiFi"
+	depends on USB
+	---help---
+	  Help message of RTL8192CU
+

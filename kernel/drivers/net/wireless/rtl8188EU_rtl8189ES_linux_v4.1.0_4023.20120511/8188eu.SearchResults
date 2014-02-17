@@ -1,0 +1,46 @@
+---- mp_txpower Matches (1 in 1 files) ----
+Ioctl_linux.c (os_dep\linux):		{ MP_TXPOWER , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_txpower"},
+---- IW_PRIV_TYPE_CHAR Matches (64 in 1 files) ----
+Ioctl_linux.c (os_dep\linux):	{ SIOCIWFIRSTPRIV + 0x00, IW_PRIV_TYPE_CHAR | 1024, 0 , ""},  //set 
+Ioctl_linux.c (os_dep\linux):	{ SIOCIWFIRSTPRIV + 0x01, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK , ""},//get
+Ioctl_linux.c (os_dep\linux):		{ MP_START , IW_PRIV_TYPE_CHAR | 1024, 0, "mp_start" }, //set
+Ioctl_linux.c (os_dep\linux):		{ MP_PHYPARA, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_phypara" },//get
+Ioctl_linux.c (os_dep\linux):		{ MP_STOP , IW_PRIV_TYPE_CHAR | 1024, 0, "mp_stop" }, //set
+Ioctl_linux.c (os_dep\linux):		{ MP_CHANNEL , IW_PRIV_TYPE_CHAR | 1024 , IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_channel" },//get
+Ioctl_linux.c (os_dep\linux):		{ MP_BANDWIDTH , IW_PRIV_TYPE_CHAR | 1024, 0, "mp_bandwidth"}, //set
+Ioctl_linux.c (os_dep\linux):		{ MP_RATE , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_rate" },//get
+Ioctl_linux.c (os_dep\linux):		{ MP_RESET_STATS , IW_PRIV_TYPE_CHAR | 1024, 0, "mp_reset_stats"},
+Ioctl_linux.c (os_dep\linux):		{ MP_QUERY , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK , "mp_query"}, //get
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ READ_REG , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "read_reg" },
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_RATE , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_rate" },
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ READ_RF , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "read_rf" },
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_PSD , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_psd"}, 
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_DUMP, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_dump" },
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_TXPOWER , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_txpower"},
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_ANT_TX , IW_PRIV_TYPE_CHAR | 1024,  IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_ant_tx"},
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_ANT_RX , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_ant_rx"},
+Ioctl_linux.c (os_dep\linux):		{ WRITE_REG, IW_PRIV_TYPE_CHAR | 1024, 0,"write_reg"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "NULL" },
+Ioctl_linux.c (os_dep\linux):		{ WRITE_RF, IW_PRIV_TYPE_CHAR | 1024, 0,"write_rf"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "NULL" },
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_CTX , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_ctx"},
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_ARX , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_arx"},
+Ioctl_linux.c (os_dep\linux):		{ MP_NULL, IW_PRIV_TYPE_CHAR | 128, 0,"NULL"},//set
+Ioctl_linux.c (os_dep\linux):		{ MP_THER , IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_ther"},
+Ioctl_linux.c (os_dep\linux):		{ EFUSE_SET, IW_PRIV_TYPE_CHAR | 1024, 0, "efuse_set" },
+Ioctl_linux.c (os_dep\linux):		{ EFUSE_GET, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "efuse_get" },
+Ioctl_linux.c (os_dep\linux):		{ MP_PWRTRK , IW_PRIV_TYPE_CHAR | 1024, 0, "mp_pwrtrk"},
+Ioctl_linux.c (os_dep\linux):		{ MP_QueryDrvStats, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK, "mp_drvquery" },
+Ioctl_linux.c (os_dep\linux):		{ MP_IOCTL, IW_PRIV_TYPE_CHAR | 1024, 0, "mp_ioctl"}, // mp_ioctl	
+Ioctl_linux.c (os_dep\linux):		{ MP_SetRFPathSwh, IW_PRIV_TYPE_CHAR | 1024, 0, "mp_setrfpath" },
+Ioctl_linux.c (os_dep\linux):	{ SIOCIWFIRSTPRIV + 0x02, IW_PRIV_TYPE_CHAR | 1024, IW_PRIV_TYPE_CHAR | IW_PRIV_SIZE_MASK , "test"},//set

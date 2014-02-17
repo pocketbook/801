@@ -1,0 +1,20 @@
+#
+# IDIG project  wifi type  configuration
+#
+menuconfig XRZ_WIFI_TYPE
+	tristate "Xrz Tech wifi type "
+	default y 
+	
+
+
+if XRZ_WIFI_TYPE
+config USB_WIFI_RTL8192CU
+	tristate "usb wifi type rtl8192cu,control some gpio init"
+	default n
+	
+config USB_WIFI_AR6102
+	tristate "wifi type AR6102,control some gpio init"
+	default n
+
+	
+endif

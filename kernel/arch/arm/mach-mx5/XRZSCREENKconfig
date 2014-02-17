@@ -1,0 +1,31 @@
+#
+# IDIG project  screen  configuration
+#
+menuconfig IDIG_SCREEN_TYPE
+	tristate "Xrz Tech Screen type"
+	default y 
+	
+
+
+if IDIG_SCREEN_TYPE
+
+config  TFT_CPT_FTG700D05Z
+	bool "TFT Screen,now use for c026"
+	default n
+	help
+	  if we use this screen type ,we need open:
+	  (1).Device Drivers->Graphics support->MXC Framebuffer support;
+	  (2).Device Drivers->Graphics support->Synchronous Panel Framebuffer;
+	  (3).Device Drivers->Graphics support->Support MXC ELCDIF framebuffer;
+	  (4).Modify file:device/fsl/imx50_rdp/BoardConfig.mk,make HAVE_FSL_EPDC_FB := false
+	
+config  E_INK_EDPC
+	bool "edpc e-ink screen"
+	default n
+	help
+	  if we use this screen type,we need open:
+	  (1).Device Drivers->Graphics support->E-Ink Panel Framebuffer;
+	  (2).Modify file:device/fsl/imx50_rdp/BoardConfig.mk,make HAVE_FSL_EPDC_FB := true
+
+
+endif
